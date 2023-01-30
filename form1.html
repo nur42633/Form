@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+
+<body>
+
+    <main>
+
+        <section>
+
+            <h1>Donor Information</h1>
+
+            <form action="form.php">
+
+                <label for="fname"> First Name : </label>
+                <input type="text" name="Fname" id="fname" placeholder="enter your name"><br>
+
+                <label for="lname">Last Name : </label>
+                <input type="text" name="Lname" id="lname"><br>
+
+                <label for="company"> Company : </label>
+                <input type="text" name="Company" id="company"><br>
+
+                <label for="address1">Address1 : </label>
+                <input type="text" name="Address1" id="address1"><br>
+
+                <label for="address2">Address2 : </label>
+                <input type="text" name="Address2" id="address2"><br>
+
+                <label for="city">City : </label>
+                <input type="text" name="City" id="city">
+                <br>
+
+                <label for="state">State : </label>
+                <select name="state" id="state">
+
+                    <option value=""> Select State</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Chandpur">Chandpur</option>
+                    <option value="Jamalpur">Jamalpur</option>
+                    <option value="Gazipur">Gazipur</option>
+
+                </select>
+
+                <br>
+
+
+                <label for="zipCode">Zip Code : </label>
+                <input type="number" name="ZipCode" id="zipCode">
+
+                <br>
+                <label for="country">Country : </label>
+                <select name="ctry" id="ctry">
+
+                    <option value=""> Select Country</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="India">India</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Nepal">Nepal</option>
+
+                </select>
+
+                <br>
+
+
+                <label for="phone">Phone : </label>
+                <input type="number" name="Phone" id="phone"> <br>
+
+                <label for="fax">Fax : </label>
+                <input type="text" name="Fax" id="fax"><br>
+
+                <label for="email">Email : </label>
+                <input type="email" name="Email" id="email"><br>
+
+                <label for="donation">Donation Amount : </label>
+
+                <input type="radio" name="Donation" id="donation"> None
+                <input type="radio" name="Donation" id="donation"> $50
+                <input type="radio" name="Donation" id="donation"> $75
+                <input type="radio" name="Donation" id="donation"> $100
+                <input type="radio" name="Donation" id="donation"> $250
+                <input type="radio" name="Donation" id="donation"> Other
+                <br>
+                <label for="other">other Amount : </label>
+                <input type="number" name="Other" id="other">
+                <br>
+                <label for="reDonation">Recurring Donation : </label>
+                <input type="checkbox" name="Redonation" id="reDonation">
+                <label for="para">I am interensted in giving on a regular basis</label>
+                <br>
+                <label for="credit">Monthly Credit Card $ </label>
+                <input type="number" name="Credit" id="credit">
+                <label for="for"> For</label>
+                <input type="for" name="For" id="for">
+                <label for="month">Months</label>
+
+                <br>
+                <br>
+
+                <h1>Honorarium and Memorial Donation Information </h1>
+                <br>
+                <label for="para2">I would like to make this donation </label>
+                <input type="radio" name="Para2" id="para2"> To Honor
+                <input type="radio" name="Para2" id="para2"> In Memory of
+
+                <br>
+
+                <label for="name">Name : </label>
+                <input type="text" name="name" id="Name"><br>
+
+                <label for="acknowledge">Acknowledge Donation to: : </label>
+                <input type="text" name="ak" id="acknowledge"><br>
+
+                <label for="address">Address : </label>
+                <input type="text" name="add" id="address"><br>
+
+                <label for="city">City : </label>
+                <input type="text" name="City" id="city"><br>
+
+
+                <label for="state">State : </label>
+                <select name="state" id="state">
+
+                    <option value=""> Select Any Option</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Chandpur">Chandpur</option>
+                    <option value="Jamalpur">Jamalpur</option>
+                    <option value="Gazipur">Gazipur</option>
+
+                </select>
+
+                <br>
+
+                <label for="zip">Zip : </label>
+                <input type="number" name="Zip" id="zip"><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </form>
+
+        </section>
+
+
+    </main>
+
+</body>
+
+</html>
